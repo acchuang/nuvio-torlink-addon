@@ -1,0 +1,19 @@
+{
+  "name": "TorLink",
+  "version": "1.0.0",
+  "scrapers": [
+    {
+      "id": "torlink",
+      "name": "TorLink",
+      "description": "Torrent streams from YTS, EZTV, The Pirate Bay, 1337x, Bitsearch and Nyaa",
+      "version": "1.0.0",
+      "author": "acchuang",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/torlink.js",
+      "enabled": true,
+      "formats": ["mkv", "mp4"],
+      "logo": "https://www.google.com/s2/favicons?domain=yts.mx&sz=128",
+      "contentLanguage": ["en"]
+    }
+  ]
+}
