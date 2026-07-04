@@ -1,0 +1,13 @@
+{
+  "name": "nuvio-torlink-addon",
+  "version": "1.0.0",
+  "description": "Nuvio provider — torrent streams from YTS, EZTV, TPB, 1337x, Bitsearch, Nyaa",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "test": "node test-torlink.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0"
+  }
+}
